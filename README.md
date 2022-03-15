@@ -10,5 +10,3 @@ Main topics that we will learn together are :
  -> Concurrent and parallel programming
  -> New things that come with JAVA 8 and up.
  
- Thank you,
- 
