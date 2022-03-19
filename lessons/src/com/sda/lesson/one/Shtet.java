@@ -43,6 +43,7 @@ public class Shtet implements ArrayInterface{
     }
 
     @Override
+    @JAVA10
     public void maxPopullsia() {
         System.out.println("maxPopullsia>>>>>>>");
         int max = qyteti[0].getPopullsia();

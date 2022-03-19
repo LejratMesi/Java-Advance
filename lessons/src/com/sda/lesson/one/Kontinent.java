@@ -2,6 +2,7 @@ package com.sda.lesson.one;
 
 public class Kontinent {
 
+    private Planet planet = Planet.TOKA;
     private String name;
     private  int area;
 
