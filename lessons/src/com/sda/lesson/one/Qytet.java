@@ -10,4 +10,28 @@ public class Qytet {
         this.popullsia = popullsia;
         this.protesta = protesta;
     }
+
+    public String getEmri() {
+        return emri;
+    }
+
+    public void setEmri(String emri) {
+        this.emri = emri;
+    }
+
+    public int getPopullsia() {
+        return popullsia;
+    }
+
+    public void setPopullsia(int popullsia) {
+        this.popullsia = popullsia;
+    }
+
+    public boolean isProtesta() {
+        return protesta;
+    }
+
+    public void setProtesta(boolean protesta) {
+        this.protesta = protesta;
+    }
 }
