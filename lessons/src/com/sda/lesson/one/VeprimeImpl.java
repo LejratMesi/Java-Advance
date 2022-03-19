@@ -1,15 +1,12 @@
 package com.sda.lesson.one;
 
-public class VeprimeImpl implements Veprime, TestingProcess {
+public class VeprimeImpl implements Veprime,TestingProcess {
     private int numri1;
     private int numri2;
 
     public VeprimeImpl(){}
 
-    public VeprimeImpl(int numri1, int numri2){
-        this.numri1 = numri1;
-        this.numri2 = numri2;
-    }
+
 
     @Override
     public void printoKlasen() {
@@ -22,7 +19,7 @@ public class VeprimeImpl implements Veprime, TestingProcess {
     }
 
     @Override
-    public int shuma(int numri1, int numri2) {
+    public int lejrat(int numri1, int numri2) {
         return numri1+numri2;
     }
 
