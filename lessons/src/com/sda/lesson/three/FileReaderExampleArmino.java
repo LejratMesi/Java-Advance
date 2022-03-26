@@ -12,7 +12,7 @@ public class FileReaderExampleArmino {
         try {
             FileWriter out = new FileWriter("string.txt");
             out.append(s);
-            out.flush();
+
             out.close();
         }catch (IOException e){
             System.out.println(e.getMessage());
