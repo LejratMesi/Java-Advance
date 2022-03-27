@@ -1,25 +1,20 @@
 package com.sda.lesson.four;
 
-public class Information implements Runnable{
+public class Information extends Thread{
 
-    private Integer numberOfThread;
+   private SynchronizedExample synchronizedExample;
 
-    public Information(Integer numberOfThread){
-        this.numberOfThread = numberOfThread;
-    }
-
+   public Information(SynchronizedExample synchronizedExample){
+       this.synchronizedExample = synchronizedExample;
+   }
     @Override
     public void run(){
-
-        for (int i = 1; i < 5;i++){
-            System.out.println("JAVA" + i + " prinuar nga threadi me numer" + numberOfThread);
-            try{
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-
+       try {
+           SynchronizedExample.printNubers();
+           SynchronizedExample.printoKlasen();
+       } catch (Exception e) {
+           e.printStackTrace();
+       }
     }
 
 }
