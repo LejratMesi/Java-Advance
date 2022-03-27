@@ -10,7 +10,7 @@ public class Information extends Thread{
     @Override
     public void run(){
        try {
-           SynchronizedExample.printNubers();
+           synchronizedExample.printNubers();
            SynchronizedExample.printoKlasen();
        } catch (Exception e) {
            e.printStackTrace();
