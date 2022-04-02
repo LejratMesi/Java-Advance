@@ -1,19 +1,13 @@
 package com.sda.lesson.fifth.example;
 
-import javax.swing.text.StyledEditorKit;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
-public class ReviewJavaBasic {
-    private static ArrayList<Integer> numberList;
+public class ReviewJavaBasic implements ReviewJavaBasicInterface {
+    public  ArrayList<Integer> numberList;
 
-    public static void main(String[] args) {
-        pupulateArray();
-        System.out.println(findAverage(numberList));
-        findMax(null);
-    }
-    public static void pupulateArray() {
+    @Override
+    public  void pupulateArray() {
         Scanner scanner = new Scanner(System.in);
         numberList = new ArrayList<>();
         System.out.println("Input number till value 9999");
@@ -25,7 +19,8 @@ public class ReviewJavaBasic {
         }
     }
 
-    private static Integer findSum(ArrayList<Integer> a)
+    @Override
+    public Integer findSum(ArrayList<Integer> a)
     {
         Integer sum = 0;
         for(Integer i=0; i<a.size(); i++)
@@ -35,7 +30,8 @@ public class ReviewJavaBasic {
         return sum;
     }
 
-    private static Integer findMin(ArrayList<Integer> a)
+    @Override
+    public Integer findMin(ArrayList<Integer> a)
     {
         Integer min = a.get(0);
         for(Integer i=1; i<a.size(); i++)
@@ -48,7 +44,8 @@ public class ReviewJavaBasic {
         return min;
     }
 
-    private static Integer findMax(ArrayList<Integer> a)
+    @Override
+    public Integer findMax(ArrayList<Integer> a)
     {
         Integer max = a.get(0);
         for(Integer i=1; i<a.size(); i++)
@@ -61,13 +58,15 @@ public class ReviewJavaBasic {
         return max;
     }
 
-    private static Double findAverage(ArrayList<Integer> a)
+    @Override
+    public Double findAverage(ArrayList<Integer> a)
     {
         Double average = (double) findSum(a) / a.size();
         return average;
     }
 
-    private static Boolean isPresent(Integer number, ArrayList<Integer> a)
+    @Override
+    public Boolean isPresent(Integer number, ArrayList<Integer> a)
     {
         for(Integer elements : a)
         {
@@ -80,7 +79,8 @@ public class ReviewJavaBasic {
         return false;
     }
 
-    private static void printOddNumbers(ArrayList<Integer> a){
+    @Override
+    public void printOddNumbers(ArrayList<Integer> a){
         for(Integer elements : a)
         {
             if(elements%2 == 1)
@@ -90,7 +90,8 @@ public class ReviewJavaBasic {
         }
     }
 
-    private static Boolean printPrimeNumbers(ArrayList<Integer> a){
+    @Override
+    public Boolean printPrimeNumbers(ArrayList<Integer> a){
         boolean flag = false;
         for(Integer elements : a)
         {
@@ -109,7 +110,8 @@ public class ReviewJavaBasic {
         return flag;
     }
 
-    private static void printEvenNumbers(ArrayList<Integer> a){
+    @Override
+    public void printEvenNumbers(ArrayList<Integer> a){
         for(Integer elements : a)
         {
             if(elements%2 == 0)
