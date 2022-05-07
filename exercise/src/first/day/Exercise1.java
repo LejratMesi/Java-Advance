@@ -1,3 +1,5 @@
+package first.day;
+
 import java.util.Scanner;
 
 /*
