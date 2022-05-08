@@ -1,21 +1,25 @@
-package com.sda;
+package com.sda.exercise18_19;
 
 import java.util.Objects;
 
-public class Exercise18 {
+public class Computer {
     private String processor;
     private String ram;
     private String graphicsCard;
     private String company;
     private String model;
 
-    private Exercise18(String processor, String ram, String graphicsCard, String company, String model){
+    public Computer(){}
+
+    public Computer(String processor, String ram, String graphicsCard, String company, String model){
         this.processor = processor;
         this.ram = ram;
         this.graphicsCard = graphicsCard;
         this.company = company;
         this.model = model;
     }
+
+
 
     public String getProcessor() {
         return processor;
@@ -72,7 +76,7 @@ public class Exercise18 {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Exercise18 computer = (Exercise18) o;
+        Computer computer = (Computer) o;
         return Objects.equals(processor, computer.processor) && Objects.equals(ram, computer.ram);
     }
 
@@ -82,9 +86,9 @@ public class Exercise18 {
     }
 
     public static void main(String[] args) {
-        Exercise18 computer1 = new Exercise18("3.5", "16.0", "4.0", "HP", "Pavillion");
-        Exercise18 computer2 = new Exercise18("3.5", "16.0", "2.0", "Lenovo", "Ideapad");
-        Exercise18 computer3 = new Exercise18("2.5", "8.0", "4.0", "HP", "Pavillion");
+        Computer computer1 = new Computer("3.5", "16.0", "4.0", "HP", "Pavillion");
+        Computer computer2 = new Computer("3.5", "16.0", "2.0", "Lenovo", "Ideapad");
+        Computer computer3 = new Computer("2.5", "8.0", "4.0", "HP", "Pavillion");
 
         System.out.println(computer1.toString());
         System.out.println(computer2.toString());
