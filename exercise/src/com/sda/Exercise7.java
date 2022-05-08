@@ -1,4 +1,4 @@
-package first.day;
+package com.sda;
 
 public class Exercise7 {
 

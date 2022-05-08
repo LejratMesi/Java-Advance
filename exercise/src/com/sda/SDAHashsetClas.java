@@ -1,4 +1,4 @@
-package first.day;
+package com.sda;
 
 import java.util.LinkedHashSet;
 import java.util.Scanner;

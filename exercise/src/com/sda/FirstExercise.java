@@ -1,4 +1,4 @@
-package first.day;
+package com.sda;
 
 import java.util.Arrays;
 import java.util.Collections;

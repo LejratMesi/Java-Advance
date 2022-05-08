@@ -1,4 +1,4 @@
-package first.day.exerciseEight;
+package com.sda.exerciseEight;
 
 public class MainExercise8 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package first.day.exerciseEight;
+package com.sda.exerciseEight;
 
 public class Parcel implements ParcelValidator {
     private Integer xLength;
