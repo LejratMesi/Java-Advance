@@ -1,6 +1,7 @@
 package first.day.exerciseNine;
 
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,9 +31,21 @@ public class Circle {
     }
 
     public List<Point2D> getSlicePoints(){
+        List<Point2D> points = new ArrayList<>();
+        for(int i =1; i<= 3; i++){
+            Point2D newPoint = getNewPointCoordinate(point);
+            points.add(newPoint);
+            point.setX(newPoint.getX());
+            point.setY(newPoint.getY());
+        }
+        return points;
+    }
+
+    public Point2D getNewPointCoordinate(Point2D point){
         Double newPointX = null;
         Double newPointY = null;
-        if (point.getX() >= 0 && point.getY() > 0){
+        if (point.getX() >= 0 && point.getY() > 0)
+        {
             newPointX = point.getX();
             newPointY = -(point.getY());
         }
@@ -48,9 +61,7 @@ public class Circle {
             newPointX = -(point.getX());
             newPointY = point.getY();
         }
-        Point2D newPoints = new Point2D(newPointX,newPointY);
-        List<Point2D> points = new ArrayList<>();
-        points.add(newPoints);
-        return points;
+
+        return new Point2D(newPointX,newPointY);
     }
 }
