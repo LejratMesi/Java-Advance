@@ -22,8 +22,8 @@ public class MainClassForTheseExercise {
         ArrayList<Manufacturer> manufacturers= new ArrayList<Manufacturer>();
         manufacturers.add(manufacturer1);
         manufacturers.add(manufacturer2);
-        Car car1=new Car("veture" , "audi",1233564,2006,EngineType.S3, arraylistManufacture);
-        Car car2=new Car("foristrade" ,"audi",5421245,2006,EngineType.S3, arraylistManufacture);
+        Car car1=new Car("veture" , "audi",1233564,2006,EngineType.S3, arraylistManufacture,800);
+        Car car2=new Car("foristrade" ,"audi",5421245,2006,EngineType.S3, arraylistManufacture,80);
         if (car1.equals(car2)) {
             System.out.println("Jane te barabarta sepse kane te njejtin model");
             if (car1.hashCode() == car2.hashCode()){

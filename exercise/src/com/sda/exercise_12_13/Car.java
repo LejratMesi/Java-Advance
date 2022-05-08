@@ -12,16 +12,19 @@ public class Car {
     Integer yearOfManufacture;
     EngineType engineType;
     List<Manufacturer> manufacture;
+    Integer power;
 
     public Car(){}
 
-    public Car(String name, String model, Integer price, Integer yearofmanufacture, EngineType engineType, ArrayList<Manufacturer> manufacture) {
+    public Car(String name, String model, Integer price, Integer yearofmanufacture, EngineType engineType,
+               ArrayList<Manufacturer> manufacture ,Integer power) {
         this.name = name;
         this.model = model;
         this.price = price;
         this.yearOfManufacture = yearofmanufacture;
         this.manufacture = manufacture;
         engineType = EngineType.S3;
+        power = power;
     }
 
     @Override
@@ -87,5 +90,13 @@ public class Car {
 
     public void setEngineType(EngineType engineType) {
         this.engineType = engineType;
+    }
+
+    public Integer getPower() {
+        return power;
+    }
+
+    public void setPower(Integer power) {
+        this.power = power;
     }
 }
