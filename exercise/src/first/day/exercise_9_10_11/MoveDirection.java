@@ -1,13 +1,16 @@
-package first.day.exerciseNine;
+package first.day.exercise_9_10_11;
 
-
-public class Point2D {
+public class MoveDirection {
     private Double x;
     private Double y;
 
-    public Point2D(Double x, Double y) {
+    public MoveDirection(Double x, Double y) {
         this.x = x;
         this.y = y;
+    }
+
+    public MoveDirection() {
+
     }
 
     public Double getX() {
@@ -26,5 +29,11 @@ public class Point2D {
         this.y = y;
     }
 
+    @Override
+    public String toString() {
+        return "MoveDirection{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }
-
