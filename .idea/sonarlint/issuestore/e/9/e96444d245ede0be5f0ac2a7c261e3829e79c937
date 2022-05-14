@@ -1,0 +1,14 @@
+
+Q
+java:S1854";Remove this useless assignment to local variable "hexagon".(¸Õ‡š
+W
+java:S1854"<Remove this useless assignment to local variable "triangle".(ûÝÊœùÿÿÿÿ
+X
+java:S1854"=Remove this useless assignment to local variable "rectangle".(ö‰ž…øÿÿÿÿ
+I
+java:S1481".Remove this unused "rectangle" local variable.(ö‰ž…øÿÿÿÿ
+H
+java:S1481"-Remove this unused "triangle" local variable.(ûÝÊœùÿÿÿÿ
+B
+java:S1481",Remove this unused "hexagon" local variable.(¸Õ‡š
+V	java:S125"<This block of commented-out lines of code should be removed.(ÎÜ³ûÿÿÿÿ

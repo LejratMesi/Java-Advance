@@ -1,0 +1,10 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ø¨ëøÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¯£¨Äıÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(´ÉÆè
+}
+java:S1488"gImmediately return this expression instead of assigning it to the temporary variable "perimeterOfCone".(§ï‹
+}
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "areaOfCone".(â—ºœûÿÿÿÿ
+
+java:S1488"dImmediately return this expression instead of assigning it to the temporary variable "volumeOfCone".(­œµÁûÿÿÿÿ

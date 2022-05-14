@@ -1,0 +1,19 @@
+
+g
+java:S1871="LThis branch's code block is the same as the block for the branch on line 53.(¯‚ı´úÿÿÿÿ
+g
+java:S18719"LThis branch's code block is the same as the block for the branch on line 49.(¢›ÁÎùÿÿÿÿ
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(‰ÍØœøÿÿÿÿ
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(¿¨Ò·ıÿÿÿÿ
+N	java:S106Y"9Replace this use of System.out or System.err by a logger.(¢ö©
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(³ŠÏüÿÿÿÿ
+\
+java:S1126["AReplace this if-then-else statement by a single return statement.(‡«’øøÿÿÿÿ
+S	java:S106e"9Replace this use of System.out or System.err by a logger.(Ê‰¹†øÿÿÿÿ
+N	java:S106g"9Replace this use of System.out or System.err by a logger.(áó¦Ü
+|
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "perimeter".(úŞæÿùÿÿÿÿ
+w
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "area".(€Â…óüÿÿÿÿ
+L
+java:S5411d"*Use the primitive boolean expression here.( ŞÌııÿÿÿÿ8à”Š0
