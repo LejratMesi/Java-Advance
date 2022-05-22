@@ -44,7 +44,7 @@ public class SDAHashsetClas {
         System.out.println("Vendosni elementin per te bere Check : ");
         String element=scanner.nextLine();
         if (map.contains(element)){
-            System.out.println(map.contains(element));
+            System.out.println(true);
         }
         else System.out.println("Elementi nuk eshte ne HashSet!");
 

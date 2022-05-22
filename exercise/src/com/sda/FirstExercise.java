@@ -9,7 +9,6 @@ import java.util.Scanner;
 public class FirstExercise {
     public static String[] sortFromZToA(String [] array){
         Arrays.sort(array, Collections.reverseOrder());
-       // System.out.println(Arrays.toString(array));
         return array;
     }
 

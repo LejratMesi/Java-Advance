@@ -28,10 +28,10 @@ public class ThirdExercise {
             value = in.nextInt();
             map.put(key , value);
         }
-        afishoMapin(map, length);
+        afishoMapin(map);
     }
 
-    private static void afishoMapin(HashMap<String, Integer> map, int length) {
+    private static void afishoMapin(HashMap<String, Integer> map) {
         int i = 0;
         for (HashMap.Entry<String, Integer> x: map.entrySet()) {
             String k = x.getKey();

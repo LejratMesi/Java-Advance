@@ -13,7 +13,7 @@ public enum  Exercise16 {
         this.maxTime = maxTime;
     }
 
-    private static Exercise16 getFitnessLevel(Double timeResult){
+    public static Exercise16 getFitnessLevel(Double timeResult){
         if(timeResult >= 0D && timeResult <= 2.5){
           //  System.out.println("ADVANCED !");
             return ADVANCED;
@@ -29,6 +29,9 @@ public enum  Exercise16 {
     }
 
     public static void main(String[] args) {
+        //Menyra e pare e deklarimit
+        Exercise16 newRunner = Exercise16.ADVANCED;
+        //Menyra e dyte e deklarimit
         Exercise16 test = getFitnessLevel(22D);
         System.out.println(test);
         getFitnessLevel(3D);

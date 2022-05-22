@@ -3,9 +3,9 @@ package com.sda.exercise_12_13;
 import java.util.Objects;
 
 public class Manufacturer {
-    String name;
-    Integer yearOfEstablishment;
-    String country;
+    private String name;
+    private Integer yearOfEstablishment;
+    private String country;
 
     public Manufacturer(){}
 

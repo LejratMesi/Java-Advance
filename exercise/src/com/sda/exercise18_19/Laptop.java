@@ -28,7 +28,7 @@ public class Laptop extends Computer {
     public String toString() {
         return "Laptop{" +
                 "batteryParameter=" + batteryParameter +
-                '}';
+                '}' + super.toString();
     }
 
     public Integer getBatteryParameter() {
