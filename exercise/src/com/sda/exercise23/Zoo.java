@@ -15,7 +15,14 @@ public class Zoo {
     }
 
     public void addAnimals(String animalName, int numberOfAnimals) {
-        this.animalsMap.put(animalName, numberOfAnimals);
+        if(animalsMap.containsKey(animalName)){
+            Integer animalNumber = animalsMap.get(animalName);
+            animalNumber += numberOfAnimals;
+            this.animalsMap.put(animalName,animalNumber);
+        } else {
+            this.animalsMap.put(animalName, numberOfAnimals);
+        }
+
     }
 
     public Map<String, Integer> getAnimalByName(String name) {
@@ -35,8 +42,8 @@ public class Zoo {
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,((integer, integer2) -> integer), LinkedHashMap::new));
     }
 
-    public int getNumberOfAllAnimals() {
-        int count = 0;
+    public Integer getNumberOfAllAnimals() {
+        Integer count = 0;
         for (int animal : animalsMap.values()) {
             count += animal;
         }

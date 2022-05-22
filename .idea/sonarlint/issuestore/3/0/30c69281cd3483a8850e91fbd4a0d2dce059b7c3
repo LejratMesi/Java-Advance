@@ -1,0 +1,23 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(üËîÔşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŠÕ½«
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Â›Î®úÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(€ÓŸ®øÿÿÿÿ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(»£Óß
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(¹›Êûÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(½ë£ı
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(Ú„³âÿÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(¸Ÿ™úÿÿÿÿ
+V
+java:S2864C"4Iterate over the "entrySet" instead of the "keySet".(¥‹ß£şÿÿÿÿ8Óè§Œ0
+T
+java:S1854\"9Remove this useless assignment to local variable "trash".(¡™·üÿÿÿÿ
+E
+java:S1481\"*Remove this unused "trash" local variable.(¡™·üÿÿÿÿ
+N	java:S106a"9Replace this use of System.out or System.err by a logger.(ı§¸
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(¡Á¡à
+N	java:S106j"9Replace this use of System.out or System.err by a logger.(×Ûêª
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±èÏ–
+
+java:S1319["pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(äØ×ã8Á±¨Œ0

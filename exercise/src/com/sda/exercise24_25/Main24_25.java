@@ -24,7 +24,7 @@ public class Main24_25 {
             System.out.println("Shport ka " + basket.getItem() + " elementa brenda");
             basket.addToBasket();
             System.out.println("Shport ka " + basket.getItem() + " elementa brenda");
-            //basket.addToBasket();
+            basket.addToBasket();
             basket.removeFromBasket();
             System.out.println("Shport ka " + basket.getItem() + " elementa brenda");
             basket.removeFromBasket();
