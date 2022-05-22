@@ -190,5 +190,6 @@ public class CarServiceImpl implements CarService {
        // carService.addCars(carsAsString);
 
         carsSortedAccordingParameter(carService.addCars(carsAsString),"rrites");
+        carService.cheapestCar(carsAsString);
     }
 }

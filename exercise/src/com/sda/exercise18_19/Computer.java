@@ -68,7 +68,7 @@ public class Computer {
                 ", ram='" + ram + '\'' +
                 ", graphicsCard='" + graphicsCard + '\'' +
                 ", company='" + company + '\'' +
-                ", model='" + model + '\'' +
+              //  ", model='" + model + '\'' +
                 '}';
     }
 

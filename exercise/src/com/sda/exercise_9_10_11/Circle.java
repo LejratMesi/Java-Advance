@@ -17,7 +17,8 @@ public class Circle implements Movable, Resizeable {
     }
 
     public Double findRadius(){
-        radius =Math.sqrt((Math.pow(point.getX(),2))+(Math.pow(point.getY(),2)));
+        Double diameter =Math.sqrt(Math.pow(point.getX() - center.getX(),2) + Math.pow(point.getY() - center.getY(),2 ));
+        radius = diameter/2;
         return radius;
     }
 
@@ -80,7 +81,7 @@ public class Circle implements Movable, Resizeable {
     }
 
     public Boolean isOutsideOfCycle(Point2D point){
-        // Menyra per te pare se nese pika eshte brenda apo rrethit eshte :
+        // Menyra per te pare se nese pika eshte brenda apo  jashte rrethit eshte :
         // (x - center_x)² + (y - center_y)² <= radius²
         Double xCoordinate = Math.pow(point.getX() - center.getX(), 2);
         System.out.println(xCoordinate + " xCordinate");

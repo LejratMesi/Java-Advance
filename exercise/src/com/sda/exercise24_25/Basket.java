@@ -7,11 +7,11 @@ public class Basket {
         item = 0;
     }
 
-    public void addToBasket() throws  CheckedBasketFullException{
+    public void addToBasket(){
         if (item < 10) {
             item += 1;
         } else{
-            throw  new UncheckedBasketFullException("Shporta eshte plot");
+            throw  new UncheckedBasketFullException("Shporta eshte plot Unchecked");
         }
     }
 

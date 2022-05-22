@@ -6,13 +6,13 @@ import java.util.List;
 import java.util.Objects;
 
 public class Car {
-    String name;
-    String model;
-    Integer price;
-    Integer yearOfManufacture;
-    EngineType engineType;
-    List<Manufacturer> manufacture;
-    Integer power;
+    private String name;
+    private String model;
+    private Integer price;
+    private Integer yearOfManufacture;
+    private EngineType engineType;
+    private List<Manufacturer> manufacture;
+    private Integer power;
 
     public Car(){}
 
