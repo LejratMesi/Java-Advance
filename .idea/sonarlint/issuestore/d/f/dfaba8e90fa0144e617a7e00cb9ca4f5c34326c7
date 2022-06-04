@@ -1,0 +1,44 @@
+
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(©èÍ¼
+K
+java:S2209"5Change this instance-reference to a static reference.(©èÍ¼
+[
+java:S1854%"@Remove this useless assignment to local variable "manufacturer".(Éå¢êÿÿÿÿÿ
+M
+java:S1117 "7Rename "car" which hides the field declared at line 10.(”‘Ü¬
+L
+java:S1481%"1Remove this unused "manufacturer" local variable.(Éå¢êÿÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ş½Úûÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(ôÃ€Ñ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(Ø¡±ıÿÿÿÿ
+M	java:S1062"9Replace this use of System.out or System.err by a logger.(‚ê„=
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ç†•ùÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(¾æ‡¨øÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ËÉ­ìøÿÿÿÿ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(ºßÆÙùÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(éæñÙüÿÿÿÿ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(ŞŠ†º
+N	java:S106U"9Replace this use of System.out or System.err by a logger.(°ïàª
+M
+java:S1117|"7Rename "car" which hides the field declared at line 10.(Ğ’áµ
+B
+java:S1168®"+Return an empty collection instead of null.(¥¹ï
+T	java:S106¶"9Replace this use of System.out or System.err by a logger.(î†öÍşÿÿÿÿ
+W	java:S125¾"<This block of commented-out lines of code should be removed.(ñûô•ùÿÿÿÿ
+†
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(öçå
+z
+java:S1319"dThe type of "cars" should be an interface such as "List" rather than the implementation "ArrayList".(È©ûƒ
+~
+java:S1319S"cThe type of "car" should be an interface such as "List" rather than the implementation "ArrayList".(ˆİĞúÿÿÿÿ
+Œ
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(œÓÑ—ûÿÿÿÿ
+€
+java:S1319"dThe type of "cars" should be an interface such as "List" rather than the implementation "ArrayList".(œÓÑ—ûÿÿÿÿ
+?
+java:S1604Ÿ"(Make this anonymous inner class a lambda(Ø¶ ™
+?
+java:S1604¦"(Make this anonymous inner class a lambda(Ø¶ ™
+S
+java:S4973µ"<Strings and Boxed types should be compared using "equals()".( ‡ã…

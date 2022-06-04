@@ -1,0 +1,27 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(ªªÏüÿÿÿÿ
+W
+java:S1854"<Remove this useless assignment to local variable "numbers1".(ªªÏüÿÿÿÿ
+M
+java:S1854"7Remove this useless assignment to local variable "val".(‘ûòÔ
+H
+java:S1481"-Remove this unused "numbers1" local variable.(ªªÏüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Å‚ïüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ
+C
+java:S1481"(Remove this unused "val" local variable.(İ¦Ñîÿÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(¹šÖéüÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½Ñ´Êşÿÿÿÿ
+o
+java:S2293*"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍöÆ¸
+t
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(÷ÅÆ®üÿÿÿÿ
+ƒ
+java:S1319&"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(é¨Ş½
+u
+java:S1319&"_The type of "hm" should be an interface such as "Map" rather than the implementation "HashMap".(é¨Ş½
+>
+java:S1604."(Make this anonymous inner class a lambda( œÜÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ë§ıÿÿÿÿ

@@ -1,0 +1,15 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Õ¢İü
+S	java:S106"9Replace this use of System.out or System.err by a logger.(»Âµœşÿÿÿÿ
+B
+java:S1125"'Remove the unnecessary boolean literal.(÷·­‚úÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(·ÏÙl
+=
+java:S1125"'Remove the unnecessary boolean literal.(ÉÂöÎ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(áşÅûşÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ì¬ò¨ıÿÿÿÿ
+E
+java:S5411"*Use the primitive boolean expression here.(÷·­‚úÿÿÿÿ
+@
+java:S5411"*Use the primitive boolean expression here.(ÉÂöÎ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶™çúÿÿÿÿ

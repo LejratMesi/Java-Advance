@@ -1,0 +1,9 @@
+
+E
+java:S1656"/Remove or correct this useless self-assignment.(‘œ¿â
+†
+java:S1319"kThe type of "manufacture" should be an interface such as "List" rather than the implementation "ArrayList".(§Øªşÿÿÿÿ
+b
+java:S1226"GIntroduce a new variable instead of reusing the parameter "engineType".(Ú¶«Öúÿÿÿÿ
+y
+java:S4165"cRemove this useless assignment; "power" already holds the assigned value along all execution paths.(‘œ¿â

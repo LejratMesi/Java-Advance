@@ -1,0 +1,10 @@
+
+P	java:S125"<This block of commented-out lines of code should be removed.(Ôç¸J
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Í÷ñÔùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ì¶îßÿÿÿÿÿ
+R
+java:S1854!"=Remove this useless assignment to local variable "newRunner".(²íœ5
+C
+java:S1481!".Remove this unused "newRunner" local variable.(²íœ5
+M	java:S106$"9Replace this use of System.out or System.err by a logger.(Äş!
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(¬®÷½ÿÿÿÿÿ
