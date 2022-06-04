@@ -11,7 +11,7 @@ public class Thread2 extends Thread {
 
     @Override
     public void run() {
-        synchronized (lock1) {
+        synchronized (lock2) {
             System.out.println("Thread-2 acquired lock1");
             try {
                 Thread.sleep(1000);
@@ -19,7 +19,7 @@ public class Thread2 extends Thread {
                 System.out.println("Thread-2 interrupted.");
             }
             System.out.println("Thread-2 waiting for lock2");
-            synchronized (lock2){
+            synchronized (lock1){
                 System.out.println("Thread-2 acquired lock2");
                 try {
                     Thread.sleep(1000);

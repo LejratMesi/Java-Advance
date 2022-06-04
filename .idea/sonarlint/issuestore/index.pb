@@ -29,26 +29,6 @@ a
 1lessons/src/com/sda/lesson/three/PathExample.java,4\c\4cadb4f2bc9a37a710db1a36fef834236d026933
 h
 8lessons/src/com/sda/lesson/three/InputStreamExample.java,4\1\41b633fafe547a9fbbb8712d285a52b193280c02
-b
-2lessons/src/com/sda/lesson/four/ThreadExample.java,9\4\94872ecdd534e224b89973d100c5d9fab4cb4768
-m
-=lessons/src/com/sda/lesson/four/deadlock/example/Thread1.java,f\2\f23b449d80f4ce73762da3fb87f338394744415b
-m
-=lessons/src/com/sda/lesson/four/deadlock/example/Thread2.java,b\a\ba8a4d6147fb174195756be060730a52eca92c9c
-h
-8lessons/src/com/sda/lesson/four/SynchronizedExample.java,6\8\68ae8fe42ae5b447e9fb4871c1f14ca961994427
-a
-1lessons/src/com/sda/lesson/four/FourthLesson.java,7\5\75b80d6d39efabd45c49ade6059d59c5463067eb
-`
-0lessons/src/com/sda/lesson/four/Information.java,5\6\56dfd62cdbe5bd6bbbd27e2dd5861be806e6b3bf
-[
-+lessons/src/com/sda/lesson/four/JAVA11.java,b\b\bb137a1dd5daebd7df4361bfd710928b3b7b594b
-X
-(lessons/src/com/sda/lesson/four/SDA.java,7\8\782bd26f7c2ca9679ceeede6f3f76cf69e54133a
-u
-Elessons/src/com/sda/lesson/four/deadlock/example/DeadLockExample.java,a\b\abf380b11173bac15a89e82617964452d34d33ef
-[
-+lessons/src/com/sda/lesson/four/JAVA10.java,a\c\ac89515d50bd37c556de097365b79ffa4393813c
 c
 3exercise/src/com/sda/exercise_12_13/CarService.java,1\0\10271194c0bdb4f3917f87d9d17746174745e6b9
 e
@@ -109,8 +89,6 @@ _
 /exercise/src/com/sda/exercise35/Exercise35.java,c\6\c61202f4afe2abcf08c49947f65925c341271543
 Y
 )exercise/src/com/sda/exercise35/Main.java,7\4\74c7b9507fc7181b5d901dbc7829e3817a4decc2
-b
-2exercise/src/com/sda/ushtrimi_fundit/Receiver.java,9\6\968e209b376b5b130fc137eedea8a90a6c32489a
 T
 $exercise/src/com/sda/Exercise28.java,c\2\c26cb26fb1d4a32f6bc9053f51cfc9dc1d840a51
 T
@@ -119,10 +97,6 @@ b
 2exercise/src/com/sda/UshtrimMomentalMeJPEGPNG.java,6\6\660f2e944c340836cad067e13860c59f50383962
 L
 exercise/src/Exercise31.java,8\4\84d2dec9801f97b26984f95f7cb598ca8b467f93
-^
-.exercise/src/com/sda/ushtrimi_fundit/Main.java,9\f\9fcffe8fea4ca026277056a0a9e2bb16e8768f2e
-`
-0exercise/src/com/sda/ushtrimi_fundit/Sender.java,3\b\3b3cd2080ce843894376b0def893841792039184
 S
 #exercise/src/com/sda/Exercise1.java,7\a\7a4b3d2bf2ce9e4c3aa30e20122556ee991f1139
 X
