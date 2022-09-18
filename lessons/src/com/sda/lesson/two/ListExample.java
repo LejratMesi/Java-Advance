@@ -1,7 +1,9 @@
 package com.sda.lesson.two;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class ListExample {
     public static void main(String[] args) {
@@ -32,10 +34,11 @@ public class ListExample {
         listOfNames.add("mesi123");
 
         gjejFjaleMeLengthGreater4(listOfNames);
+        gjejFrequency(listOfNames);
     }
 
     static public void maxList(List<Integer> numra){
-        int max = numra.get(0); ;
+        int max = numra.get(0);
         for (int i = 1 ; i < numra.size(); i++){
             if (numra.get(i)>max){
                 max = numra.get(i);
@@ -46,14 +49,10 @@ public class ListExample {
     }
 
     private static void isFoundOrNot (Integer number, List<Integer> listOfInts){
-        for(int i=0; i<listOfInts.size(); i++){
-            if(listOfInts.get(i)==number){
-                System.out.println("Number "+number+" exists in the arraylist!");
-                break;
-            }
-            else{
-                System.out.println("Number "+number+" does not exist in the arraylist!");
-            }
+        if (listOfInts.contains(number)){
+            System.out.println("U gjet");
+        } else {
+            System.out.println("nuk u gjet");
         }
     }
 
@@ -66,6 +65,32 @@ public class ListExample {
             }
         }
 
+    }
+
+
+    public static void gjejFrequency(List<String> stringList){
+        Map<String,Integer> map = new HashMap<>();
+
+        for(String str : stringList){
+            if(map.containsKey(str)){
+                Integer value = 0;
+                value = map.get(str);
+                value++;
+                map.put(str,value);
+
+            } else{
+                map.put(str,1);
+            }
+        }
+
+        printoHashMap(map);
+    }
+
+    private static void printoHashMap(Map<String, Integer> map) {
+
+        for (Map.Entry<String,Integer> pairs : map.entrySet()){
+            System.out.println(pairs);
+        }
     }
 
 }

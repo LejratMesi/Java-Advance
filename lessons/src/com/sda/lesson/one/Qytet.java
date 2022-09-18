@@ -1,5 +1,5 @@
 package com.sda.lesson.one;
-
+@SDaShkoder(newClass = Qytet.class, name = "Qyete")
 public class Qytet {
     private String emri;
     private int popullsia;
@@ -33,5 +33,8 @@ public class Qytet {
 
     public void setProtesta(boolean protesta) {
         this.protesta = protesta;
+    }
+    public void test(){
+
     }
 }

@@ -1,5 +1,7 @@
 package com.sda.lesson.four;
 
+import static java.lang.Thread.sleep;
+
 public class ThreadExample1 implements Runnable{
     String name;
     Thread t;
@@ -10,12 +12,11 @@ public class ThreadExample1 implements Runnable{
         //t.start();
     }
 
-
     public void run() {
         try {
             for(int i = 5; i > 0; i--) {
                 System.out.println(name + ": " + i);
-                Thread.sleep(10000);
+                wait();
             }
         }catch (InterruptedException e) {
             System.out.println(name + "Interrupted");

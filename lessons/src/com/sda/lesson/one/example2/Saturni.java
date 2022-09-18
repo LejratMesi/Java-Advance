@@ -2,6 +2,7 @@ package com.sda.lesson.one.example2;
 
 public class Saturni implements World{
 
+
     @Override
     public Integer numriiKontinenteve() {
         return 234;

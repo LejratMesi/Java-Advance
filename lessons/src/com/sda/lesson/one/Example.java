@@ -2,6 +2,10 @@ package com.sda.lesson.one;
 
 public class Example {
     public static void main(String[] args) {
+
+        ShkoderImpl shkoder = new ShkoderImpl();
+        shkoder.print("Shkoder");
+        shkoder.printo();
         Shtet shqiperia = new Shtet();
         // ---------- Interfaces-----------
         VeprimeImpl veprime = new VeprimeImpl();

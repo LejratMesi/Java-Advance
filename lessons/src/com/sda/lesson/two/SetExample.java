@@ -9,9 +9,9 @@ public class SetExample {
     public static void main(String[] args) {
         Set<Integer> names = new HashSet<>();
         names.add(new Integer(1));
-        names.add(new Integer(1));
-        names.add(new Integer(1));
-        names.add(new Integer(1));
+        names.add(new Integer(2));
+        names.add(new Integer(3));
+        names.add(new Integer(4));
         Iterator<Integer> test = names.iterator();
         while(test.hasNext()){
             System.out.println(test.next());

@@ -99,4 +99,8 @@ public class Car {
     public void setPower(Integer power) {
         this.power = power;
     }
+
+    boolean isPrototype(){
+        return true;
+    }
 }
