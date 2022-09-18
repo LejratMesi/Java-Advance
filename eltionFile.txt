@@ -1,0 +1,3 @@
+Emri qe ka gjatesine me te madhe eshte : Hygerta
+Emri qe ka gjatesine me te vogel eshte : Rais
+Mesatarja e gjatesise se emrit tek array eshte : 5.285714285714286
