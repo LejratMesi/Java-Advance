@@ -2,16 +2,16 @@ package com.sda.lesson.one;
 
 public abstract class Salla {
     public void printoEmer(){
-        System.out.println("Protesta");
+        System.out.println("SAlla");
     }
 
     public void printProtesta(){
         System.out.println("Protesta");
     }
     public void print(){
-        System.out.println("Protesta");
+        System.out.println("Hello world");
     }
 
 
-    abstract void printName();
+    protected abstract void printName();
 }

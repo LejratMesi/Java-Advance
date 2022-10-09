@@ -1,10 +1,0 @@
-
-\
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(ŒßØçÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(´‡¨àýÿÿÿÿ
-H
-java:S1128"2Remove this unused import 'javax.imageio.ImageIO'.(‘çÔû
-;
-java:S1128"%Remove this unused import 'java.awt'.(ï´µ©
-T
-java:S1128"9Remove this unused import 'java.awt.image.BufferedImage'.(×íÐ‡þÿÿÿÿ

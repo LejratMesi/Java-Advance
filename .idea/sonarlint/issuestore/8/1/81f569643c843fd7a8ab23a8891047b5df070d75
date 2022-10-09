@@ -1,10 +1,0 @@
-
-S	java:S106 "9Replace this use of System.out or System.err by a logger.(©ô‘Îùÿÿÿÿ
-N	java:S106""9Replace this use of System.out or System.err by a logger.(©çÌ“
-N	java:S106$"9Replace this use of System.out or System.err by a logger.(Ž¬î˜
-
-java:S1488"dImmediately return this expression instead of assigning it to the temporary variable "perimeterKub".(ÏÑª–þÿÿÿÿ
-z
-java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "areaKub".(Šòß’úÿÿÿÿ
-^
-java:S4973!"<Strings and Boxed types should be compared using "equals()".(˜ÒÇ™þÿÿÿÿ8€ë½ÞŽ0
