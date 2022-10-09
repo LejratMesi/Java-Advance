@@ -1,7 +1,5 @@
 package com.sda.lesson.four;
 
-import com.sda.lesson.SDaShkoder;
-
 public class ThreadExampleShkoderAl1 {
     public static void main(String[] args) {
         //Krijimi i nje thread-i

@@ -1,8 +1,5 @@
 package com.sda.lesson.one;
 
-import com.sda.lesson.JAva18;
-import com.sda.lesson.JAva19;
-
 public class AbstractMAin {
     public static void main(String[] args) {
         JAva18 java18 = new JAva18();

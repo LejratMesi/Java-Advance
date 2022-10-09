@@ -12,10 +12,10 @@ public class Bed {
 
 
    public String getName() {
-                return name;
+       return name;
    }
 
-  public void setName(String name) {
+  void setName(String name) {
           this.name = name;
   }
 
