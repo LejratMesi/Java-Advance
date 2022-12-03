@@ -1,7 +1,7 @@
 # JAVA_Advance
 
 
-In order to clone this you have to do the command `git clone type here the repo url`
+In order to clone this you have to do the command `git clone type here the repo url`.
 After you cloned you can open using your prefered IDE.
 
 This repository will help student to understand the main concepts of JAVA_Advance section from the course.
