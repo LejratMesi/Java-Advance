@@ -1,0 +1,3 @@
+Emri qe ka gjatesine me te madhe eshte : LEjrat
+Emri qe ka gjatesine me te vogel eshte : Mesi
+Mesatarja e gjatesise se emrit tek array eshte : 4.666666666666667

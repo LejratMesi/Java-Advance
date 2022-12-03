@@ -1,13 +1,13 @@
 package com.sda.lesson.java17Collections;
 
-// Ushtrim:
-// Ruaji te dhenat qe jepen nga perdoruesi dhe me pas beni keto kerkesa:
-// Printo te dhenat e perdoruesit
-// Gjej fjalen me te gjate tek arrayList
-// Gjej fjalen me te shkurter tek arraylist
-// Gjej fjalen/fjalet qe perseritet me shume se 1 here
-// Ktheni fjalet ne poz tek me germa te medha
-// Ktheni fjalet ne poz cift me germa te vogla.
+    // Ushtrim:
+    // Ruaji te dhenat qe jepen nga perdoruesi dhe me pas beni keto kerkesa:
+    // Printo te dhenat e perdoruesit
+    // Gjej fjalen me te gjate tek arrayList
+    // Gjej fjalen me te shkurter tek arraylist
+    // Gjej frequencen
+    // Ktheni fjalet ne poz tek me germa te medha
+    // Ktheni fjalet ne poz cift me germa te vogla.
 
 import java.util.*;
 
@@ -18,7 +18,7 @@ public class ClassExercise {
         Scanner input = new Scanner(System.in);
         List<String> studentsNames = new ArrayList<>();
         populloListen(input, studentsNames);
-        System.out.println("--------------------");
+        /*System.out.println("--------------------");
         System.out.println("Kerkesa e 2");
         printoNames(studentsNames);
         System.out.println("--------------------");
@@ -27,12 +27,12 @@ public class ClassExercise {
         System.out.println("--------------------");
         System.out.println("Kerkesa e 4");
         gjejFjalenMeTeShkurter(studentsNames);
-        System.out.println("--------------------");
+        System.out.println("--------------------");*/
         System.out.println("Kerkesa e 4");
-        fjalaQePerseritet(studentsNames);
-        System.out.println("--------------------");
+        countTimesOfRepeat(studentsNames);
+      /*  System.out.println("--------------------");
         System.out.println("Kerkesa e 5, 6");
-        ktheFjale(studentsNames);
+        ktheFjale(studentsNames);*/
 
 
 
@@ -108,6 +108,45 @@ public class ClassExercise {
                         frequency + " here");
         }
     }
+
+
+    static void countTimesOfRepeat(List<String> names){
+      List<String> test = new ArrayList<>();
+      int count =0;
+        for (int i = 0; i < names.size(); i++) {
+            if(!test.contains(names.get(i))) {
+                for (int j = i; j < names.size(); j++) {
+                    if (names.get(i).equals(names.get(j))) {
+                        count++;
+                    }
+                }
+                System.out.println(names.get(i) + " eshte perseritur " + count + " here");
+                test.add(names.get(i));
+                count = 0;
+            }
+        }
+
+    }
+
+
+    static void countTimesOfRepeat9(ArrayList<String> names) {
+        Map<String, Integer> countTimesOfRepeat = new HashMap<>();
+        for (String name : names) {
+            Integer count = countTimesOfRepeat.get(name);
+            if (count == null) {
+                countTimesOfRepeat.put(name, 1);
+            } else {
+                countTimesOfRepeat.put(name, ++count);
+            }
+        }
+        for (Map.Entry<String, Integer> entryset : countTimesOfRepeat.entrySet()) {
+            System.out.println(entryset);
+        }
+    }
+
+
+
+
 
     public static void ktheFjale(List<String> studentsNames){
         for(int i=0; i<studentsNames.size(); i++){
