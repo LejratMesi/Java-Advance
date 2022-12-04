@@ -5,7 +5,7 @@ In order to clone this you have to do the command `git clone type here the repo 
 
 After you cloned you can open using your prefered IDE.
 
-In the resource folder you will find some images related to Concurrecy that will help you to understand better why we need Concurrency and what are the limitation of the synchronized keyword.
+In the `lessons\resource` folder you will find some images related to Concurrecy that will help you to understand better why we need Concurrency and what are the limitation of the synchronized keyword.
 
 
 
