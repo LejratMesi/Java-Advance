@@ -1,4 +1,4 @@
-# JAVA_Advance
+# Java_Advance
 
 
 In order to clone this you have to do the command `git clone type here the repo url`.
