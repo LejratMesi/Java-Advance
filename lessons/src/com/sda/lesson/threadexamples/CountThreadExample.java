@@ -1,4 +1,4 @@
-package com.sda.lesson;
+package com.sda.lesson.threadexamples;
 
 import com.sda.lesson.threadexamples.Count;
 
