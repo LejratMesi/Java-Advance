@@ -1,7 +1,7 @@
 # Java-Advance
 
 
-In order to clone this you have to do the command `git clone type here the repo url`.
+In order to clone this you have to do the command `git clone https://github.com/LejratMesi/Java-Advance.git`.
 
 After you cloned you can open using your prefered IDE.
 
