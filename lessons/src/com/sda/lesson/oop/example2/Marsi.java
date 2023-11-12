@@ -9,16 +9,16 @@ public class Marsi implements World{
 
     @Override
     public void printoEmrinEGalaksise() {
-        System.out.println("Galaksie marsit ");
+        System.out.println("Rruga e Qumeshtit");
     }
 
     @Override
     public String merrEmrinEKontinentitTePare() {
-        return "ska kontinente";
+        return "Saranda";
     }
 
     @Override
     public Double ktheSiperfaqenEUjit() {
-        return 0d;
+        return 328934.9;
     }
 }

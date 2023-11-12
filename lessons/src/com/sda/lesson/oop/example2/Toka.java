@@ -2,27 +2,24 @@ package com.sda.lesson.oop.example2;
 
 public class Toka implements World{
 
-    public static Integer NUMBER_OF_CONTINENTS = 7;
-    public static Double AREA = 7d;
-    public static String FIRST_CONTINENT = "Pangea";
-
     @Override
     public Integer numriiKontinenteve() {
-        return NUMBER_OF_CONTINENTS;
+        return 90;
     }
 
     @Override
     public void printoEmrinEGalaksise() {
-        System.out.println("RRuga e qumeshtit");
+        System.out.println("KUKES");
     }
 
     @Override
     public String merrEmrinEKontinentitTePare() {
-        return FIRST_CONTINENT;
+        return "Kukes";
     }
 
     @Override
     public Double ktheSiperfaqenEUjit() {
-        return AREA;
+        return 0.0;
     }
 }
+

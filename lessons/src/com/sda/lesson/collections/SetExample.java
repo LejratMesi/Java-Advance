@@ -1,22 +1,24 @@
 package com.sda.lesson.collections;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class SetExample {
     public static void main(String[] args) {
-        Set<Integer> names = new HashSet<>();
-        names.add(1);
-        names.add(2);
-        names.add(3);
-        names.add(4);
-        Iterator<Integer> test = names.iterator();
-        while(test.hasNext()){
-            System.out.println(test.next());
+        Set<Integer> firstSet = new HashSet<>();
+        //Shtimi i nje elementi te nje set
+        firstSet.add(1);
+        firstSet.add(1);
+        firstSet.add(1);
+        firstSet.add(1);
+        firstSet.add(13);
+
+        //iterate
+        for(Integer numer : firstSet){
+            System.out.println(numer);
         }
-        ushtrimiKlases();
+        Set<String> secondSet = new HashSet<>();
+
+
 
     }
 

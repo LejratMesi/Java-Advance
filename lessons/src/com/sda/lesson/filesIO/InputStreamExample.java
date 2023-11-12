@@ -1,23 +1,25 @@
 package com.sda.lesson.filesIO;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 
+//Byte streamin
 public class InputStreamExample {
 
     public static void main(String[] args) throws IOException {
-        FileInputStream inputStream = new FileInputStream("files/user.txt");
-        FileOutputStream outputStream = new FileOutputStream("files/user_1.txt");
-        int next = 0;
-        byte[] test = new byte[20];
-        next = inputStream.read(test,0,20);
-        while(next != -1){
-            System.out.println((char) next);
-            System.out.println(test[2]);
-            outputStream.write(next);
-            next= inputStream.read();
+        try (InputStream input = new FileInputStream("files/img.png");
+             OutputStream output = new FileOutputStream("files/output.jpg")) {
+
+            byte[] buffer = new byte[1024]; // Përdorim një buffer 1 KB për të lexuar/shkruar
+
+            int bytesRead;
+            while ((bytesRead = input.read(buffer)) != -1) {
+                output.write(buffer, 0, bytesRead);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+
     }
 
 }

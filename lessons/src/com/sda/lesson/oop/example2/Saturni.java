@@ -2,24 +2,25 @@ package com.sda.lesson.oop.example2;
 
 public class Saturni implements World{
 
-
     @Override
     public Integer numriiKontinenteve() {
-        return 234;
+        return 9;
     }
 
     @Override
     public void printoEmrinEGalaksise() {
-        System.out.println("Galaksia e Saturnit");
+        System.out.println("Tirana");
     }
 
     @Override
     public String merrEmrinEKontinentitTePare() {
-        return "Saturni";
+        return "Shqiperia";
     }
 
     @Override
     public Double ktheSiperfaqenEUjit() {
-        return 9993.3;
+        return 90.0;
     }
 }
+
+

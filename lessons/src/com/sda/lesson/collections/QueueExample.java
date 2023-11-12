@@ -4,7 +4,22 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class QueueExample {
+
+
+    //innner class
+    class TEST {
+
+    }
+
+    public static class NEstedClass{
+
+    }
+
     public static void main(String[] args) {
+
+        String s = new String("asdf");
+        //String.format()
+        //s.length()
         Queue<String> pokemons = new LinkedList<>();
         pokemons.offer("Pikachu");
         pokemons.offer("Pikachu1");

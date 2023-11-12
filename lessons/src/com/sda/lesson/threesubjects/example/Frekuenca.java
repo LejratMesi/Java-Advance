@@ -3,6 +3,8 @@ package com.sda.lesson.threesubjects.example;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class Frekuenca {
     public static void main(String[] args) {
@@ -37,5 +39,19 @@ public class Frekuenca {
         }
 
         System.out.println(firstMap.entrySet());
+
+       // gjejFrekuencen(nums);
     }
+
+
+    /*public static void gjejFrekuencen(ArrayList<Integer> nums){
+        Map<Object, Long> occurrenceMap = nums
+                .stream()
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+
+        // Printing the result
+        System.out.println("Number Occurrences:");
+        occurrenceMap.forEach((number, occurrence) ->
+                System.out.println(number + ": " + occurrence));
+    }*/
 }

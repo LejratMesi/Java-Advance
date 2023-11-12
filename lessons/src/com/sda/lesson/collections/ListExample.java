@@ -1,9 +1,6 @@
 package com.sda.lesson.collections;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ListExample {
     public static void main(String[] args) {
@@ -12,18 +9,31 @@ public class ListExample {
         age.add(211);
         age.add(22);
         age.add(3);
+        age.add(3);
+        age.add(1, 3);
 
-        System.out.println(age.get(1));
+        System.out.println(age.get(1)); // arra[1]
 
-        //Bredhur kemi 2 mundesi
+        //Iterate kemi 3 mundesi
 
         for(Integer numer : age){
             System.out.println(numer);
         }
 
+        Iterator<Integer> iterator = age.iterator();
+
+        while(iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
+        String test  = "lerjat";
+
         for (int i = 0;i<age.size();i++){
+
+            //Ketu kemi marr vleren ne indexin i
             System.out.println(age.get(i));
         }
+
+
         maxList(age);
         isFoundOrNot(2, age);
         List<String> listOfNames = new ArrayList<>();

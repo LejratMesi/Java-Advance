@@ -76,8 +76,8 @@ public class ShkoderUshtrimi3 {
 
     public static double mestarjaString (String [] arrayEmra) {
         double shuma = 0.0;
-        for (int i=0; i< arrayEmra.length; i++) {
-            shuma += arrayEmra[i].length();
+        for (String s : arrayEmra) {
+            shuma += s.length();
         }
         return (shuma/ arrayEmra.length);
     }

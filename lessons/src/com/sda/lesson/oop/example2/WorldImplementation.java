@@ -48,12 +48,7 @@ public class WorldImplementation {
         saturni.printoEmrinEGalaksise();
         System.out.println(saturni.merrEmrinEKontinentitTePare());
 
-        try{
-            ((Toka) toka).FIRST_CONTINENT = null;
-            System.out.println(toka.merrEmrinEKontinentitTePare().length());
-        } catch(Exception e){
-            System.out.println("Opps ndodhi nje error");
-        }
+
 
 
     }

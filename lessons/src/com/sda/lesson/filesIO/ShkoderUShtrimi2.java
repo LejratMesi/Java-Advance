@@ -34,9 +34,6 @@ public class ShkoderUShtrimi2 {
     }
 
     private static boolean findTheSizeOFWordAndWithWatStarts(String word) {
-        if (word.length() > 4 && !word.startsWith("L")){
-            return true;
-        }
-        return false;
+        return word.length() > 4 && !word.startsWith("L");
     }
 }

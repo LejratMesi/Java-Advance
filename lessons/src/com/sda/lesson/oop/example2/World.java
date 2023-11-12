@@ -7,10 +7,4 @@ public interface World {
     String merrEmrinEKontinentitTePare();
     Double ktheSiperfaqenEUjit();
 
-
-
-
-
-
-
 }
