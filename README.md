@@ -9,7 +9,7 @@ In the `lessons\resource` folder you will find some images related to Concurrecy
 
 
 
-This repository will help student to understand the main concepts of JAVA_Advance section from the course.
+This repository will help student to understand the main concepts of Java-Advance section from the course.
 Main topics that we will learn together are :
 
   * OOP concepts in general : classes, interfaces... etc
