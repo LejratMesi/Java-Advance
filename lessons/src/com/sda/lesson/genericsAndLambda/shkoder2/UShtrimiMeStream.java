@@ -6,12 +6,12 @@ import java.util.List;
 /*
 * Do krijoni nje ArrayList me 10 elementa
 elementat do jene String
-do vendosni ne array 10 Emra si te doni nese do ni mund te pyesni dhe userin
+do vendosni ne array 10 Emra si te doni nese doni mund te pyesni dhe userin
 pastaj do krijoni metodat perkatese :
 shfaq te gjith emrat
 gjej emrin qe ka me pak karaktere
 gjej emrin qe ka me shume karaktere
-gjej mesatrent e karaktereve te emrave
+gjej mesataren e karaktereve te emrave
 emrat qe fillojne me S te behen me te medha
 printo emrat qe kane numer tek karakteresh
 printo emrat qe kane numer cift karakteresh
